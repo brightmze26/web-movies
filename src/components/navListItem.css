@@ -1,0 +1,31 @@
+.nav li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 1440px) {
+    .nav li a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav li a {
+        font-size: 12px;
+    }
+}

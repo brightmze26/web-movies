@@ -1,0 +1,42 @@
+.swiper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.movieSwiper {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 20px var(--primary);
+    border-radius: 25px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .swiper {
+        height: 200px;
+    }
+    .movieSwiper {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .swiper-slide {
+        width: 110px;
+    }
+}

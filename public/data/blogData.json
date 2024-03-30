@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "thumbnail" : "../assets/blogs/vip.png",
+        "category" : "Students",
+        "title" : "$0 USD"
+    },
+
+    {
+        "_id": 2,
+        "thumbnail" : "../assets/blogs/vip.png",
+        "category" : "Premium",
+        "title" : "$9.99 USD"
+    },
+
+    {
+        "_id": 1,
+        "thumbnail" : "../assets/blogs/vip.png",
+        "category" : "Best Quality",
+        "title" : "$19.99 USD"
+    },
+
+    {
+        "_id": 1,
+        "thumbnail" : "../assets/blogs/vip.png",
+        "category" : "Unlimited",
+        "title" : "$49.99 USD"
+    } 
+]
